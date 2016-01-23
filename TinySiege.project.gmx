@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprButton</sprite>
+    <sprite>sprites\sprFloor</sprite>
+    <sprite>sprites\sprRoom</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,9 +22,12 @@
       <object>objects\objButton</object>
     </objects>
     <objects name="Game">
+      <object>objects\fukinFloor</object>
       <objects name="RoomSelection">
         <object>objects\objRoomSelection</object>
       </objects>
+      <object>objects\newRoom</object>
+      <object>objects\object5</object>
     </objects>
   </objects>
   <rooms name="rooms">
